@@ -1,6 +1,6 @@
 /**
  *
- * @author KUMAR
+ * @author Ashwin Nayak
  */
 import java.io.BufferedReader;
 import java.io.BufferedWriter;  
@@ -16,11 +16,8 @@ public class LabRat2 {
   public static void main(String[] args)throws IOException
   {
 
-   
 String h;
 
-  
-     
     for (final File fileEntry : folder.listFiles()) {
        
         
