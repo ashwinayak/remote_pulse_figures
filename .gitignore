@@ -32,7 +32,7 @@ String h;
          h=(folder.getAbsolutePath()+"\\"+fileEntry.getName());
         File fp = new File("%s",h);
         String z=".txt";
-        File fp1=new File("%s%s",h+z);
+        File fp1=new File("%s%s",h+z); 
         FileWriter fw=new FileWriter(fp1,false);
         FileReader fr =new FileReader(fp);
         BufferedReader fin =new BufferedReader(fr);
