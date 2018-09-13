@@ -24,7 +24,7 @@ String h;
       if (fileEntry.isDirectory()) {
         // System.out.println("Reading files under the folder "+folder.getAbsolutePath());
       
-      } else {
+      } else { 
           
         if (fileEntry.isFile()) {
           temp = fileEntry.getName();
