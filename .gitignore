@@ -9,7 +9,7 @@ import java.io.FileReader;
 import java.io.FileWriter; 
 import java.io.IOException;  
 public class LabRat2 {
-    
+     
    public static File folder = new File("C:\\Users\\KUMAR\\Documents\\LabRat");
   static String temp = "";
 
