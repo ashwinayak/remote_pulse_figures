@@ -30,7 +30,7 @@ String h;
           temp = fileEntry.getName();
           if ((temp.substring(temp.lastIndexOf('.') + 1, temp.length()).toLowerCase()).equals("txt"))
          h=(folder.getAbsolutePath()+"\\"+fileEntry.getName());
-        File fp = new File("%s",h);
+        File fp = new File("%s",h); 
         String z=".txt";
         File fp1=new File("%s%s",h+z); 
         FileWriter fw=new FileWriter(fp1,false);
